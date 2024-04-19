@@ -10,6 +10,6 @@ app.post('/testing', (req, res) =>{
     console.log(req)
     res.status(200).json({'message':'done'})
 })
-app.listen(3000, () => {
+app.listen(8443, () => {
     console.log('server running 3000')
 })
